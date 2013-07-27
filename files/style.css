@@ -1,0 +1,73 @@
+
+/* Top Level Schizzle */
+
+html {
+	height: 100%;
+}
+
+body {
+
+	//text-align: center;
+	height: 100%;
+}
+
+.fixed {position:fixed; top:0; left:0; width:100%; height:60px;  padding:20px; text-align:center}
+
+/* Main Outer and Fonts */
+
+#mainOuter {
+	position: relative;
+	//width: 780px;
+	//margin: 0 auto;
+	//text-align: center;
+	//padding-top: 200px;
+}
+
+@font-face {
+	font-family: futura;
+	
+}
+
+
+
+
+h1, h2 {
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+
+	font-family: futura;
+	font-weight: bold;
+
+}
+.post{
+padding:20px;
+margin:20px;
+width:500px;
+//height:500px;
+border:1px solid black;}
+
+img.post{
+padding:20px;
+margin:20px;
+//border:1px solid black;
+}
+
+
+.test{
+top:200px;
+position:relative;
+
+}
+.title{
+postion:relative;
+margin-top:-200px;
+top:0px;
+margin-left:-800px;
+-webkit-transform:rotate(-90deg);
+}
+
+
+h1 { font-size: 40px; text-transform: uppercase; }
+h2 { font-size: 44px; color: black; }
+
