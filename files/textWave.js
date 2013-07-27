@@ -60,7 +60,7 @@ var settings = {
 					if(settings.bounce && seed > 0) seed*= -1;
 					waveObj.children(".letter_" + count).css("position","relative");
 					waveObj.children(".letter_" + count).css("top",(settings.magnitude * seed)+"px");
-					waveObj.css('-webkit-transform','rotate('+settings.textRotation+'deg)'); //text/object rotation
+					
 	
 	
 				}
